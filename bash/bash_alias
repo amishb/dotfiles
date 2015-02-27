@@ -1,0 +1,10 @@
+alias ll='ls -la'
+
+alias update='sudo apt-get update && sudo apt-get upgrade'
+
+alias myip='wget -qO- http://ipecho.net/plain ; echo'
+alias pong='ping 8.8.8.8 -c 6'
+
+
+# Reload bash conf
+alias reload='. ~/.bashrc'
