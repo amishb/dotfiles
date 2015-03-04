@@ -1,12 +1,28 @@
 # Listing stuff
-alias ll='ls -la'
+alias ll='ls -lhFa --group-directories-first --color=auto'
 alias ..='cd ..'
-
+alias please='sudo $(fc -n -l -1)'
 
 
 # Debian apt update stuff
 alias update='sudo apt-get update && sudo apt-get upgrade'
+alias get='sudo apt-get install'
 
+
+
+
+# Git Stuff
+alias gpull='git pull origin master'
+alias gpush='git push origin master'
+alias gl='git log'
+alias gs='git status'
+alias ga='git add'
+
+
+# Applications
+alias s="sudo"
+alias v="vim"
+alias sv="sudo vim"
 
 # Network stuff
 alias myip='wget -qO- http://ipecho.net/plain ; echo'
