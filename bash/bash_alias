@@ -1,7 +1,14 @@
+# Listing stuff
 alias ll='ls -la'
+alias ..='cd ..'
 
+
+
+# Debian apt update stuff
 alias update='sudo apt-get update && sudo apt-get upgrade'
 
+
+# Network stuff
 alias myip='wget -qO- http://ipecho.net/plain ; echo'
 alias pong='ping 8.8.8.8 -c 6'
 
