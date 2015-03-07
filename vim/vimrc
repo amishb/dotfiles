@@ -1,3 +1,18 @@
+" Set nocompatible
+set nocompatible
+filetype off
+
+set rtp+=~/.config/vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" The bundles you install will be listed here
+
+filetype plugin indent on
+
 " Sets how many lines of history VIM has to remember
 set history=1000
 
